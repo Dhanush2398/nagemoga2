@@ -1398,7 +1398,7 @@ header.main-header .header-sticky.active{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	opacity: 0;
+	opacity: 1;
 	transition: all 0.4s ease-in-out;
 }
 
@@ -1417,7 +1417,7 @@ header.main-header .header-sticky.active{
 	width: 100%;
 	height: 100%;	
 	background-color: var(--primary-color);
-	opacity: 80%;
+	opacity: 60%;
 }
 
 .service-image img{
@@ -1479,6 +1479,13 @@ header.main-header .header-sticky.active{
 .service-item:hover .service-content h3{
 	color: var(--white-color);
 }
+.service-item .active .service-content p,
+.service-item .service-content p,
+.service-item .active .service-content h3,
+.service-item .service-content h3{
+	color: var(--white-color);
+}
+
 
 .service-readmore-btn{
 	opacity: 0;
