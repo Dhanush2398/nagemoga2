@@ -1391,25 +1391,6 @@ header.main-header .header-sticky.active{
 	overflow: hidden;
 }
 
-.service-item:before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: var(--white-color);
-	border-radius: 20px;
-	width: 100%;
-	height: 100%;
-	transition: all 0.4s ease-in-out;
-	z-index: 1;
-}
-
-.service-item.active::before,
-.service-item:hover::before{
-	transform: translate(100%, -100%);
-}
 
 .service-image{
 	position: absolute;
