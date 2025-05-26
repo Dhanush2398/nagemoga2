@@ -7049,3 +7049,13 @@ header.main-header .header-sticky.active{
 		height: 60px; 
 	}
 }
+
+.footer-copyright-text a {
+    color: #FF70A3; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-copyright-text a:hover {
+    color: #20296E; 
+}
