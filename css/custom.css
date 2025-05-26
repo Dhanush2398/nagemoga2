@@ -621,7 +621,6 @@ header.main-header .header-sticky.active{
 }
 
 .navbar{
-	padding: 30px 0;
 	align-items: center;
 }
 
@@ -1258,9 +1257,17 @@ header.main-header .header-sticky.active{
 }
 
 .about-us-img-2 img{
+	height: 300px;
 	width: 100%;
 	aspect-ratio: 1 / 1.04;
 	object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+	.about-us-img-2 img {
+		height: 150px;
+	}
 }
 
 .about-experience-box{
@@ -1647,9 +1654,10 @@ header.main-header .header-sticky.active{
 
 .our-commitment-image img{
 	width: 100%;
-	aspect-ratio: 1 / 1.415;
+	height: 600px;
+	padding-bottom: 50px;
 	object-fit: cover;
-	margin-bottom: -100px;
+	
 }
 
 /************************************/
@@ -2142,7 +2150,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .cta-box{
-	background: linear-gradient(270deg, rgba(32, 41, 110, 0) -129%, #20296E 90%), url('../images/cta-box-bg.jpg') no-repeat;
+	background: linear-gradient(270deg, rgba(32, 41, 110, 0) -129%, #20296E 90%), url('../images/images/11.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 100px 0;
@@ -2241,6 +2249,7 @@ header.main-header .header-sticky.active{
     margin-bottom: 30px;
 	padding: 30px 30px 0 30px;
     overflow: hidden;
+	height: 450px;
 }
 
 .team-content{
@@ -2913,6 +2922,7 @@ header.main-header .header-sticky.active{
 .footer-logo img{
     width: 100%;
     max-width: 152px;
+	height: 150px;
 }
 
 .about-footer-content{
@@ -5194,10 +5204,6 @@ header.main-header .header-sticky.active{
         margin: 0;
     }
 
-	.navbar{
-		padding: 15px 0;
-	}
-
 	.slicknav_nav li,
 	.slicknav_nav ul{
         display: block;
@@ -7034,4 +7040,14 @@ header.main-header .header-sticky.active{
 
 .footer-links i {
     color: #FF70A3;
+}
+
+.navbar-brand img{
+	height: 100px;
+}
+
+@media (max-width: 768px) {
+	.navbar-brand img {
+		height: 60px; 
+	}
 }
