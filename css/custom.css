@@ -1110,17 +1110,24 @@ header.main-header .header-sticky.active{
 	width: calc(33.33% - 20px);
 	display: flex;
 	flex-direction: column;
-	background: var(--secondary-color);
+	background: var(--accent-color);
 	border-radius: 20px;
 	padding: 30px;
+	color: #fff;
+}
+.hero-info-item h3{
+	color: #fff;
 }
 
 .hero-info-item:nth-child(3n + 2){
-	background-color: var(--accent-color);
+	background-color:  var(--primary-color);
 }
 
 .hero-info-item:nth-child(3n + 3){
-	background-color: var(--primary-color);
+	background-color: var(--accent-color);
+}
+.hero-info-item:nth-child(3n + 3) .hero-info-btn .btn-default{
+	background:  var(--primary-color);
 }
 
 .hero-info-header{
@@ -1210,7 +1217,10 @@ header.main-header .header-sticky.active{
 }
 
 .hero-info-item:nth-child(3n + 2) .hero-info-btn .btn-default{
-	background: var(--primary-color);
+	background:  var(--accent-color);
+}
+.hero-info-item  .btn-default {
+	background: var(--primary-color) ;
 }
 
 /************************************/
