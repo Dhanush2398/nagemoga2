@@ -7053,3 +7053,20 @@ header.main-header .header-sticky.active{
 .footer-copyright-text a:hover {
     color: #20296E; 
 }
+
+.footer-links h4{
+	color: #fff;
+}
+
+.footer-links h5 {
+  font-size: 1.1rem;          
+  font-weight: 600;           
+  color: #ffffff;             
+  margin-bottom: 0.25rem;   
+  text-transform: uppercase; 
+  letter-spacing: 0.5px;      
+}
+
+.cta-contact-item-content h3{
+	color: #fff;
+}
