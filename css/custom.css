@@ -2984,7 +2984,6 @@ header.main-header .header-sticky.active{
 
 .footer-links ul li{
     color: var(--white-color);
-	text-transform: capitalize;
 	line-height: 1.6em;
 	margin-bottom: 15px;
 }
